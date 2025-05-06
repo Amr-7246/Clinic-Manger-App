@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 
 export function HeroSection() {
   return (
+    <>
     <section className="py-12 md:py-24 relative overflow-hidden">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-stone-900/80 via-stone-900/60 to-teal-900/40 dark:from-stone-950 dark:via-stone-900/90 dark:to-teal-950/60 z-0"></div>
@@ -96,11 +97,8 @@ export function HeroSection() {
               transition={{ duration: 0.8, delay: 0.6 }}
             >
               <div className="text-center">
-<<<<<<< HEAD
                 <p className="text-3xl font-bold text-teal-400">102010+</p>
-=======
                 <p className="text-3xl font-bold text-teal-400">200+</p>
->>>>>>> d433c81ec1d01b177979befb7e5ea8322a9ae0a7
                 <p className="text-sm text-stone-300">Expert Doctors</p>
               </div>
               <div className="text-center">
@@ -132,5 +130,6 @@ export function HeroSection() {
         </div>
       </div>
     </section>
+    </>
   );
 }
